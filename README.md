@@ -1,6 +1,11 @@
 # SimpleMenu
 a simple static inventory menu api for spigotmc/papermc
 
+add this on your onEnable or use the plugin
+```java
+new SimpleMenuListener(plugin);
+```
+
 usage example:
 ```java
 // create rules gui with 27 size (chest-size)
